@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* font-family: 'Bebas Neue', cursive; 
+font-family: 'Roboto', sans-serif;*/
+/* #FABE4C */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #A4BC46-green */
+.brand-logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.brand h1, section h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.brand p{
+    font-family: 'Roboto', sans-serif;
+}
+.brand img{
+    width: 310px;
+    /* height: 425px; */
+}
+#highlighter-green{
+    color: #A4BC46;
+}
+#highlighter{
+    color: #FABE4C;
+}
+#highlighter-dark{
+    color: #363958;
+}
+.brand .btn-color,.catogories .btn-color{
+    /* background-image: linear-gradient(to bottom, #A4BC46 0%, #A4BC46 100%); */
+    background-image: linear-gradient(to bottom, #ffda94 0%, #FABE4C 100%);
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 25px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.jacket-card img{
+    width: 250px;
+    height: 250px;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+.jacket-card{
+    border: none;
+    background-color: red;
+    border-radius: 20px;
+}
+#jacket-card-footer{
+    /* border-top: 0!important; */
+    border: 0 !important;
+    background-color: #ffffff;
+}
+.sevice-section .service-card{
+ border-radius: 20px;
+}
+.sevice-section .service-card .service-item-h2{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+}
