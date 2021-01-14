@@ -14,14 +14,20 @@ font-family: 'Roboto', sans-serif;*/
     font-size: 20px;
     font-weight: 700;
 }
-.brand h1, section h1{
+.banner .banner-text{
+    margin-top: 50px;
+    line-height: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+} 
+section h1{
     font-family: 'Bebas Neue', cursive;
 }
-.brand p{
+.banner p{
     font-family: 'Roboto', sans-serif;
 }
-.brand img{
-    width: 310px;
+.banner img{
+    width: 400px;
     /* height: 425px; */
 }
 #highlighter-green{
@@ -33,7 +39,7 @@ font-family: 'Roboto', sans-serif;*/
 #highlighter-dark{
     color: #363958;
 }
-.brand .btn-color,.catogories .btn-color{
+.banner .btn-color,.catogories .btn-color{
     /* background-image: linear-gradient(to bottom, #A4BC46 0%, #A4BC46 100%); */
     background-image: linear-gradient(to bottom, #ffda94 0%, #FABE4C 100%);
     font-family: 'Roboto', sans-serif;
@@ -50,7 +56,7 @@ font-family: 'Roboto', sans-serif;*/
 }
 .jacket-card{
     border: none;
-    background-color: red;
+    /* background-color: red; */
     border-radius: 20px;
 }
 #jacket-card-footer{
