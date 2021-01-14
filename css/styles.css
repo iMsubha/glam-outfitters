@@ -82,6 +82,18 @@ section h1{
     font-weight: 700;
     color: #363958;
 }
+.about .col-md-6 p{
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #A4BC46;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.about .col-md-6 img{
+    width: 400px;
+    border-radius: 30px;
+}
 footer{
     font-family: 'Roboto', sans-serif;
     font-size: 8px;
